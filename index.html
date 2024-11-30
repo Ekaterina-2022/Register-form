@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sign up</title>
+        <link rel="stylesheet" href="assets/normilize.css">
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <body>
+    <div class="container-wrapper">
+        <div class="container" id="containerMain">
+            <div class="container-logo">
+                <div class="logo-img">
+                    <img
+                        src="assets/TSMathsHub_logo.svg"
+                        alt="logo"
+                    />
+                </div>
+                <hr />
+                <div class="logo-title">
+                    <p>
+                        Register for free to get access to hundreds <br />
+                        of great, free resources
+                    </p>
+                </div>
+            </div>
+            <div class="form-wrapper">
+                <form novalidate>
+                    
+                    <div class="form-names">
+                        <div class="form-name column">
+                            <label for="first-name-input">First Name</label>
+                            <input
+                                type="text"
+                                name="First name"
+                                class="input"
+                                id="firstName"
+                                placeholder="Enter name..."
+                                maxlength="20"
+                                required
+                            />
+                        </div>
+                        <div class="form-name">
+                            <label for="last-name-input">Last Name</label>
+                            <input
+                                type="text"
+                                name="Last name"
+                                class="input"
+                                id="lastName"
+                                placeholder="Enter surname..."
+                                maxlength="20"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <div class="column">
+                        <label for="country">Country</label>
+                        <input
+                            name="Country"
+                            id="country"
+                            class="input"
+                        />
+                    </div>
+                    <div class="column">
+                        <label for="job">Job Title</label>
+                        <input
+                            type="text"
+                            name="Job"
+                            id="job"
+                            class="input"
+                            required
+                        />
+                    </div>
+                    <div class="column">
+                        <label for="school">Your School</label>
+                        <input type="text" name="School" id="school" class="input"/>
+                    </div>
+                    <div class="column">
+                        <label for="eadress">Email Address</label>
+                        <input type="email" name="Email adress" class="input" id="eadress" required/>
+                    </div>
+                    <div class="column">
+                        <label for="password">Password</label>
+                        <input
+                            type="password"
+                            name="password"
+                            class="input"
+                            id="password"
+                            placeholder=""
+                            maxlength="15"
+                            title="At least one capital, one small letters and number"
+                            required
+                        />
+                    </div>
+                    <div class="error_banner" id="errorBanner"></div>
+                    <div class="register-btn">
+                        
+                        <button
+                            class="reg-btn"
+                            type="submit"
+                            id="regButton"
+                        >
+                            Register Now
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="error-info"></div>
+            <div>
+                <div class="email">
+                    Trouble signing up? Email
+                    <a class="email" href="hello@thirdspacelearning.com">
+                        hello@thirdspacelearning.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
